@@ -8,9 +8,10 @@ export default class extends React.Component{
         let {count, onIncrease}=this.props;
         return (
             <div>
-                The count is {count} now!
-                <button onClick={onIncrease}>+</button>
+                <label>The count is {count} now!</label>&emsp;
+                <button onClick={onIncrease}>Add</button>
             </div>
         )
     }
 };
+
